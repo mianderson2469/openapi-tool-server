@@ -1,0 +1,32 @@
+openapi-tool-server/
+├── .github/
+│   └── PULL_REQUEST_TEMPLATE.md
+├── docs/
+│   ├── README.md
+│   ├── setup.md
+│   ├── tool_submission.md
+│   └── tool_store.md
+├── openapi-servers/
+│   ├── main.py
+│   ├── tools.json
+│   └── servers/
+│       ├── time/
+│       │   ├── main.py
+│       │   └── requirements.txt
+│       ├── filesystem/
+│       │   ├── main.py
+│       │   └── requirements.txt
+│       └── [other tools]/
+├── web-interface/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── index.css
+│   │   └── ToolStore.js
+│   ├── tailwind.config.js
+│   ├── package.json
+│   └── [other create-react-app files]
+├── setup_openapi_tool_server.sh
+├── README.md
+├── LICENSE
+└── .gitignore
